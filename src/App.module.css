@@ -1,0 +1,100 @@
+.intro {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #F8E0C9; /* Cream Pop */
+    color: #2B1A12;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Continue with existing styles */
+  
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #FFF4E4; /* Ivory Pearl for the main background */
+    color: #2B1A12; /* Almost Black for text */
+  }
+  
+  .header {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .post {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #FFF4E4;
+    border: 1px solid #B1AA81;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .post:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .postTitle {
+    margin-top: 0;
+    color: #2B1A12;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .postBody {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #DC6D18; /* Tangy Orange */
+  color: #FFF4E4; /* Ivory Pearl */
+  border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  
+  
+  .button:hover {
+    background-color: #B1AA81; /* Limestone for button hover */
+  }
+  
+  .deleteButton {
+    background-color: #2B1A12; /* Almost Black */
+  }
+  
+  /* Additional button styles for a possible update feature */
+  .updateButton {
+    background-color: #1e90ff;
+    margin-right: 10px;
+  }
+  
+  .updateButton:hover {
+    background-color: #007bff;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 16px;
+    background-color: #DC6D18; /* Tangy Orange */
+  color: #FFF4E4; /* Ivory Pearl for footer text */
+  border-top: 1px solid #B1AA81; /* Limestone */
+    border-top: 1px solid #eaeaea;
+  }
